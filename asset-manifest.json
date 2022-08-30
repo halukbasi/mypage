@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mypage/static/css/main.143408f5.css",
+    "main.js": "/mypage/static/js/main.ee3e1994.js",
+    "static/media/renault.png": "/mypage/static/media/renault.8e36f3cca36b6545c63f.png",
+    "static/media/Playfair.ttf": "/mypage/static/media/Playfair.3f7c141215e6d22d0f1e.ttf",
+    "static/media/1.jpg": "/mypage/static/media/1.63f1c466758f475725b0.jpg",
+    "static/media/baykar.png": "/mypage/static/media/baykar.245576c468ffd96a0dc3.png",
+    "static/media/Silkscreen-Regular.ttf": "/mypage/static/media/Silkscreen-Regular.55c63cb6117763b21c84.ttf",
+    "index.html": "/mypage/index.html",
+    "main.143408f5.css.map": "/mypage/static/css/main.143408f5.css.map",
+    "main.ee3e1994.js.map": "/mypage/static/js/main.ee3e1994.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.143408f5.css",
+    "static/js/main.ee3e1994.js"
+  ]
+}
