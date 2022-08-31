@@ -1,14 +1,13 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
+  video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+    }
 
   .hero-container {
     background: url("../assets/1.jpg") center center/cover no-repeat;
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     /* display: flex;
@@ -33,17 +32,6 @@ video {
       'Lucida Sans', Arial, sans-serif;
   }
 
-  .hero-btns {
-    margin-top: 32px;
-  }
-
-  .hero-btns .btn {
-    margin: 6px;
-  }
-
-  .fa-play-circle {
-    margin-left: 4px;
-  }
 
   @media screen and (max-width: 960px) {
     .hero-container > h1 {
@@ -72,6 +60,7 @@ video {
     }
   }
   .bio{
+    display: block;
     color: white;
     width: 40%;
     margin-left: 2%;
@@ -80,6 +69,7 @@ video {
     margin-top: 1%;
   }
   .bio-welcome{
+    display: block;
     color: wheat;
     width: 40%;
     margin-left: 2%;
@@ -138,16 +128,6 @@ video {
     object-fit: contain;
     margin-top: 3.2%;
     margin-left: 0.5%;
-
-    /* display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 20px;
-    list-style: none;
-    text-align: center;
-    width: 100vw;
-    justify-content: start; */
-    /* margin-left: 45%;
-    margin-top: 4.3%; */
   }
   .jerryabout{
     margin-top: 7%;
@@ -160,10 +140,6 @@ video {
   .tomabout{
     margin-right: 10%;
   }
-  /* .tomabout
-  {
-    margin-right: 50%;
-  } */
   .social{
     position: absolute;
     bottom: 0;
@@ -238,12 +214,12 @@ video {
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 60px;
+    grid-gap: 3%;
     list-style: none;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     justify-content: start;
-    margin-left: 3rem;
+    margin-left: 2%;
   }
 
   .nav-item {
@@ -257,15 +233,6 @@ video {
   @font-face {
     font-family: 'Playfair'; /*a name to be used later*/
     src: url('../assets/Playfair.ttf'); /*URL to font*/
-  }
-  .nav-links {
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-    font-family:'Silkscreen'
   }
   .nav-links {
     color: rgb(255, 255, 255);
