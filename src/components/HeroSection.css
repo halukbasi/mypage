@@ -5,7 +5,7 @@ video {
     position: fixed;
     z-index: -1;
   }
-  
+
   .hero-container {
     background: url("../assets/1.jpg") center center/cover no-repeat;
     /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
@@ -18,13 +18,13 @@ video {
     /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     /* object-fit: contain; */
   }
-  
+
   .hero-container > h1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
   }
-  
+
   .hero-container > p {
     margin-top: 8px;
     color: #fff;
@@ -32,41 +32,41 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
-  
+
   .hero-btns {
     margin-top: 32px;
   }
-  
+
   .hero-btns .btn {
     margin: 6px;
   }
-  
+
   .fa-play-circle {
     margin-left: 4px;
   }
-  
+
   @media screen and (max-width: 960px) {
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
     }
   }
-  
+
   @media screen and (max-width: 768px) {
     .hero-container > h1 {
       font-size: 50px;
       margin-top: -100px;
     }
-  
+
     .hero-container > p {
       font-size: 30px;
     }
-  
+
     .btn-mobile {
       display: block;
       text-decoration: none;
     }
-  
+
     .btn {
       width: 100%;
     }
@@ -99,7 +99,15 @@ video {
     width: 40%;
     margin-left: 2%;
     font-weight: bolder;
-    margin-top: 1%;
+    /* margin-top: 1%; */
+    margin-left: 15%;
+  }
+  .contactimage{
+    margin-left: 5%;
+  }
+  .expimage{
+    margin-left: 15%;
+    margin-top: 11%;
   }
   .exp{
     margin-top: 2%;
@@ -122,6 +130,40 @@ video {
   h2{
     margin-left: 2%;
   }
+  .aboutpng{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 3.2%;
+    margin-left: 0.5%;
+
+    /* display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100vw;
+    justify-content: start; */
+    /* margin-left: 45%;
+    margin-top: 4.3%; */
+  }
+  .jerryabout{
+    margin-top: 7%;
+    margin-left: 10%;
+  }
+  .glasses{
+    margin-bottom: 5.5%;
+    margin-left: 0%;
+  }
+  .tomabout{
+    margin-right: 10%;
+  }
+  /* .tomabout
+  {
+    margin-right: 50%;
+  } */
   .social{
     position: absolute;
     bottom: 0;
@@ -168,7 +210,7 @@ video {
     top: 0;
     z-index: 999;
   }
-  
+
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -176,7 +218,7 @@ video {
     height: 80px;
     max-width: 1500px;
   }
-  
+
   .navbar-logo {
     color: rgb(30, 23, 92);
     justify-self: start;
@@ -187,23 +229,23 @@ video {
     display: flex;
     align-items: center;
   }
-  
+
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
   }
-  
+
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 60px;
     list-style: none;
-    text-align: center; 
+    text-align: center;
     width: 100vw;
     justify-content: start;
     margin-left: 3rem;
   }
-  
+
   .nav-item {
     height: 80px;
   }
@@ -247,44 +289,44 @@ video {
     border-bottom: 4px solid rgb(238, 255, 0);
     /* transition: all 0.2s ease-out; */
   }
-  
+
   .fa-bars {
     color: rgb(30, 23, 92);
   }
-  
+
   .nav-links-mobile {
     display: none;
   }
-  
+
   .menu-icon {
     display: none;
   }
-  
+
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
     }
-  
+
     .nav-links {
       text-align: center;
       padding: 2rem;
       width: 100%;
       display: table;
     }
-  
+
     .nav-links:hover {
       background-color: rgb(30, 23, 92);
       color: #242424;
       border-radius: 0;
     }
-  
+
     .navbar-logo {
       position: absolute;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
     }
-  
+
     .menu-icon {
       display: block;
       position: absolute;
@@ -294,12 +336,12 @@ video {
       font-size: 1.8rem;
       cursor: pointer;
     }
-  
+
     .fa-times {
       color: rgb(30, 23, 92);
       font-size: 2rem;
     }
-  
+
     .nav-links-mobile {
       display: block;
       text-align: center;
@@ -314,7 +356,7 @@ video {
       border: 1px solid rgb(30, 23, 92);
       transition: all 0.3s ease-out;
     }
-  
+
     .nav-links-mobile:hover {
       background: rgb(30, 23, 92);
       color: #242424;
@@ -322,4 +364,3 @@ video {
     }
 
   }
-  

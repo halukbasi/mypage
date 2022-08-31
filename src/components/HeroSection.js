@@ -1,13 +1,8 @@
 import React,{ useEffect,useState } from "react";
 import '../App.css';
-// import { Button } from './Button';
 import { Button } from 'primereact/button';
 import './HeroSection.css';
-import { Link } from 'react-router-dom';
-// import { Image } from 'primereact/image';
 import { View, Image, StyleSheet } from 'react-native';
-import {FaTwitter} from 'react-icons/fa'
-import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 
 function HeroSection() {
@@ -54,6 +49,32 @@ function HeroSection() {
       height: 50,
       resizeMode: 'contain',
     },
+    logobig: {
+      width: 200,
+      height: 200,
+      resizeMode: 'contain',
+    },
+    contact:{
+      width: 700,
+      height: 250,
+      resizeMode: 'contain',
+    },
+    exp:{
+      width: 700,
+      height: 250,
+      resizeMode: 'contain',
+    },
+    logotomabout:{
+      width: 500,
+      height: 350,
+      resizeMode: 'contain',
+    },
+    logojerryabout:{
+      width: 500,
+      height: 210,
+      resizeMode: 'contain',
+    }
+
   });
   return (
     <div className='hero-container'>
@@ -82,8 +103,49 @@ function HeroSection() {
           to research and invest blockchain technology. Nowadays i m trying to develop an app for
           my trading bot on android using flutter. I look forward to learning more about new
           technology every day.</h3> : null}
-
-          {exp ? <div className="experiences">
+          {info ?                 
+          <div className="aboutpng">
+          <div className="tomabout">
+          <Image
+                style={styles.logotomabout}
+                source={
+                  require('../assets/tom-about.png')
+                }
+                /> </div>
+          <div className="glasses">
+          <Image
+                style={styles.logobig}
+                source={
+                  require('../assets/glasses.png')
+                }
+                /></div>
+          <div className="jerryabout">
+          <Image
+                style={styles.logojerryabout}
+                source={
+                  require('../assets/jerry-about.png')
+                }
+                /></div>
+          </div> : null}
+          {/* {info ?                 
+          <div className="tomabout">
+          <Image
+                style={styles.logotomabout}
+                source={
+                  require('../assets/tom-about.png')
+                }
+                /></div> : null}
+          {info ?                 
+          <div className="jerryabout">
+          <Image
+                style={styles.logojerryabout}
+                source={
+                  require('../assets/jerry-about.png')
+                }
+                /></div> : null} */}
+          
+          {exp ? 
+          <div className="experiences">
             <ul>
             <div className="exp">
               <div className="title">
@@ -123,8 +185,24 @@ function HeroSection() {
             </div>
             </ul>
         </div> : null}
+        {exp ? 
+            <div className="expimage">
+            <Image
+            style={styles.exp}
+            source={
+              require('../assets/experience.png')
+            }
+            /> </div>: null}
       
+      {contact ? <div className="contactimage">
+      <Image
+          style={styles.contact}
+          source={
+          require('../assets/contact.png')
+                } />
+      </div> : null}
       {contact ? <div className="contact"><h2>Phone: +90 505 9495146</h2> <h2>Mail: halukbasi@gmail.com</h2></div>: null}
+
     <div className="social">
       <div className="nav-links">
         <Button className="nav-buttons" onClick={handleSocial}>NETWORK</Button>
@@ -133,7 +211,7 @@ function HeroSection() {
     <div>
       <SocialIcon url="https://twitter.com/cryptonomously" fgColor="white" />
       <SocialIcon url="https://instagram.com/halukbasi" fgColor="white" />
-      <SocialIcon url="https://www.linkedin.com/in/haluk-ba%C5%9F%C4%B1-9a2321143/" fgColor="white" />
+      <SocialIcon url="https://www.linkedin.com/in/halukbasi/" fgColor="white" />
       <SocialIcon url="https://github.com/halukbasi" bgColor= "white" /> </div>: null}
     </div>
     </div>
