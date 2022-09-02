@@ -103,7 +103,7 @@ function HeroSection() {
           to research and invest blockchain technology. Nowadays i m trying to develop an app for
           my trading bot on android using flutter. I look forward to learning more about new
           technology every day.</h3> : null}
-          {info ?                 
+          {/* {info ?                 
           <div className="aboutpng">
           <div className="tomabout">
           <Image
@@ -126,7 +126,7 @@ function HeroSection() {
                   require('../assets/jerry-about.png')
                 }
                 /></div>
-          </div> : null}
+          </div> : null} */}
           {/* {info ?                 
           <div className="tomabout">
           <Image
@@ -185,22 +185,22 @@ function HeroSection() {
             </div>
             </ul>
         </div> : null}
-        {exp ? 
+        {/* {exp ? 
             <div className="expimage">
             <Image
             style={styles.exp}
             source={
               require('../assets/experience.png')
             }
-            /> </div>: null}
+            /> </div>: null} */}
       
-      {contact ? <div className="contactimage">
+      {/* {contact ? <div className="contactimage">
       <Image
           style={styles.contact}
           source={
           require('../assets/contact.png')
                 } />
-      </div> : null}
+      </div> : null} */}
       {contact ? <div className="contact"><h2>Phone: +90 505 9495146</h2> <h2>Mail: halukbasi@gmail.com</h2></div>: null}
 
     <div className="social">
